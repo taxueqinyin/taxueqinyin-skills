@@ -1,0 +1,30 @@
+# Skill runtime data
+english-learning-coach/data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local env/secrets
+.env
+.env.*
+!.env.example
+
+# Editors and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Generated files
+*.log
+*.tmp
+dist/
+build/
+*.zip
+*.tar.gz
+*.tgz
+*.skill
