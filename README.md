@@ -28,6 +28,24 @@
 - 内置命令：`/level`、`/summary`、`/stats`、`/review`、`/quiz`。
 - 本地持久化：通过 `scripts/learning_store.py` 保存学习数据。
 
+## 调整纠错严格度
+
+默认严格度是：
+
+```text
+STRICTNESS_PROFILE: exam
+```
+
+可以在 `english-learning-coach/SKILL.md` 里修改这个值：
+
+| 严格度 | 适合场景 |
+| --- | --- |
+| `natural` | 日常聊天。只纠正明显语法、选词、拼写、搭配或不自然表达问题。 |
+| `exam` | 考试或精细练习。会纠正较小的语法、冠词、介词、语气和表达精确度问题。 |
+| `lenient` | 轻松练习。只纠正影响理解、流畅度或非常不自然的问题。 |
+
+如果你希望它更像考试老师，用 `exam`。如果你只想顺畅聊天、少被打断，用 `lenient` 或 `natural`。
+
 ## 安装
 
 把整个 skill 文件夹复制到你的 agent skills 目录：

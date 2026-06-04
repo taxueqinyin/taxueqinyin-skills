@@ -28,6 +28,24 @@ The main design goal is immersion. The agent does not interrupt normal conversat
 - Built-in commands: `/level`, `/summary`, `/stats`, `/review`, and `/quiz`.
 - Local persistence through `scripts/learning_store.py`.
 
+## Adjusting Correction Strictness
+
+The default strictness profile is:
+
+```text
+STRICTNESS_PROFILE: exam
+```
+
+You can change this value in `english-learning-coach/SKILL.md`:
+
+| Strictness | Best for |
+| --- | --- |
+| `natural` | Daily conversation. Correct clear grammar, word choice, spelling, collocation, or unnatural-expression problems. |
+| `exam` | Exam-style or careful practice. Correct smaller grammar, article, preposition, register, and precision issues. |
+| `lenient` | Relaxed practice. Correct only mistakes that hurt meaning, fluency, or sound very unnatural. |
+
+Use `exam` if you want the coach to feel more like a careful teacher. Use `lenient` or `natural` if you want smoother conversation with fewer interruptions.
+
 ## Installation
 
 Copy the skill folder into your agent's skills directory:
