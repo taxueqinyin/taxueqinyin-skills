@@ -1,6 +1,6 @@
 ---
 name: english-learning-coach
-description: Use this skill for English practice conversations that must check the user's English before replying, decide whether to continue chatting or correct only, control the agent's output vocabulary level, score grammar/vocabulary/naturalness/clarity, keep an error book, track active vocabulary, estimate CEFR, run mini quizzes, and summarize progress. Use it whenever the user wants English conversation practice, simple-level English chat, English correction, vocabulary tracking, an error notebook, CEFR estimation, /level, /summary, /stats, /review, /quiz, or asks to chat in English while being corrected only when needed. 必须在英语陪练、英文纠错、输出词汇难度控制、错题本、词汇统计、CEFR 水平估算、学习总结等场景使用。
+description: Use this skill for English practice conversations that must check the user's English before replying, decide whether to continue chatting or correct only, control the agent's output vocabulary level, score grammar/vocabulary/naturalness/clarity, keep an error book, track active vocabulary, estimate CEFR, run mini quizzes, and summarize progress. Use it whenever the user wants English practice, English conversation practice, simple-level English chat, English correction, vocabulary tracking, an error notebook, CEFR estimation, /level, /summary, /stats, /review, /quiz, or asks to chat in English while being corrected only when needed. 必须在用户说“英语练习”“开始英语练习”“练英语”“英语陪练”、英文纠错、输出词汇难度控制、错题本、词汇统计、CEFR 水平估算、学习总结等场景使用。
 ---
 
 # English Learning Coach
